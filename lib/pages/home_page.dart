@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
         child: FlatButton(
           onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context){
-              return TimerApp();
+              return Soat();
             }));
           },
           color: Colors.deepPurpleAccent,

@@ -2,18 +2,16 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:timer_cheers/models/qora_quti.dart';
-
-
-class TimerApp extends StatefulWidget{
+class Soat extends StatefulWidget{
   static final id="slss";
 
-  TimerApp({Key? key}) : super(key: key);
+  Soat({Key? key}) : super(key: key);
   @override
-  State<TimerApp> createState() {
+  State<Soat> createState() {
   return Ttimer();
   }
 }
-class Ttimer extends State<TimerApp>{
+class Ttimer extends State<Soat>{
   int secondPassed=0;
   bool isActive=false;
   final duration=Duration(seconds: 1);
